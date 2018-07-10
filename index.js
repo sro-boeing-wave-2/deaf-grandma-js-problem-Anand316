@@ -22,8 +22,8 @@ while (x < 2) {
     if (y === 'BYE') {
       x += 1;
     }
-    print('NO, NOT SINCE 19');
-    getRandomValue(30, 50);
+    const s = 'NO, NOT SINCE 19';
+    print(s + getRandomValue(30, 50));
   } else {
     print('HUH?! SPEAK UP, SONNY!');
   }
