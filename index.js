@@ -16,11 +16,14 @@ const { prompt, print } = require('./prompt-print');
 
 let x = 0;
 print('What do you want to say to Grandma!!');
-while (x < 2) {
+while (x < 3) {
   const y = prompt('');
   if (isUppercase(y)) {
     if (y === 'BYE') {
       x += 1;
+    }
+    if (x === 3) {
+      break;
     }
     const s = 'NO, NOT SINCE 19';
     print(s + getRandomValue(30, 50));
