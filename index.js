@@ -25,8 +25,7 @@ while (x < 3) {
     if (x === 3) {
       break;
     }
-    const s = 'NO, NOT SINCE 19';
-    print(s + getRandomValue(30, 50));
+    print(`NO, NOT SINCE 19${getRandomValue(30, 50)}`);
   } else {
     print('HUH?! SPEAK UP, SONNY!');
   }
